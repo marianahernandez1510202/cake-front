@@ -57,7 +57,7 @@ const Navbar = () => {
               {dropdownOpen && (
                 <div className="dropdown-menu">
                   <div className="dropdown-header">
-                    Hola, {user?.name || 'Mariana'}
+                    Hola!!!}
                   </div>
                   <Link to="/perfil" className="dropdown-item">Mi Perfil</Link>
                   <Link to="/favoritos" className="dropdown-item">Mis Favoritos</Link>
