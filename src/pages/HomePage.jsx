@@ -83,7 +83,7 @@ const HomePage = () => {
         
         <div className="welcome-text-container">
           <div className="welcome-text">
-            <h1>¡Bienvenido/a, {user?.name || 'Mariana'}!</h1>
+            <h1>¡Bienvenido/a, {user?.name}!</h1>
             <p>Descubre nuestras deliciosas creaciones</p>
             <Link to="/catalogo" className="btn-primary">
               Ver productos
